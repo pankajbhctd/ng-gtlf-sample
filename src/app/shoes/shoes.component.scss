@@ -1,12 +1,10 @@
 :host {
   position: relative;
-  width: 600px;
-  height: 600px;
+  width: 1024px;
+  height: 1024px;
   display: block;
   margin: 0 auto;
   .cloudimage-360 {
-    width: 500px;
-    height: 500px;
     ::ng-deep {
       .cloudimage-inner-box {
         background: black;
