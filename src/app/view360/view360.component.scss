@@ -1,0 +1,14 @@
+:host {
+  .cloudimage-360 {
+    height: 100%;
+    ::ng-deep {
+      .cloudimage-inner-box {
+        background: black;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
