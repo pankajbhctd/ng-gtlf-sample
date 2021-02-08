@@ -8,7 +8,10 @@ import { AfterViewInit, Component, OnDestroy, OnInit } from '@angular/core';
 export class View360Component implements OnInit, AfterViewInit, OnDestroy {
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    // console.log(window.location.origin);
+  }
+
   ngAfterViewInit() {
     if (window.CI360) window.CI360.init();
   }
